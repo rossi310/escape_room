@@ -32,14 +32,14 @@ escape_room_2 = {
 }
 
 escape_room_3 = {
-    "298":    "pdfs/ESCAPE ROOM 3-Puzzle 2.jpg",
-    "1534":   "pdfs/ESCAPE ROOM 3-Puzzle 3.jpg",
-    "18.314": "pdfs/ESCAPE ROOM 3-Puzzle 4.jpg",
-    "1275":   "pdfs/ESCAPE ROOM 3-Puzzle 5.jpg"
+    "298":    "pdfs/ESCAPE ROOM 3-puzzle 2.jpg",
+    "1534":   "pdfs/ESCAPE ROOM 3-puzzle 3.jpg",
+    "18.314": "pdfs/ESCAPE ROOM 3-puzzle 4.jpg",
+    "1275":   "pdfs/ESCAPE ROOM 3-puzzle 5.jpg"
 }
 
 escape_room_4 = {
-     "5":   "pdfs/ESCAPE ROOM 4-Puzzle 2.jpg",
+     "5":   "pdfs/ESCAPE ROOM 4-puzzle 2.jpg",
     "4952": "pdfs/ESCAPE ROOM 4-Puzzle 3.jpg",
     "3157": "pdfs/ESCAPE ROOM 4-Puzzle 4.jpg",
     "1275": "pdfs/ESCAPE ROOM 4-Puzzle 5.jpg"
