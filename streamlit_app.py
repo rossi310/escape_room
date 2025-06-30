@@ -40,9 +40,9 @@ escape_room_3 = {
 
 escape_room_4 = {
      "5":   "pdfs/ESCAPE ROOM 4-puzzle 2.jpg",
-    "4952": "pdfs/ESCAPE ROOM 4-Puzzle 3.jpg",
-    "3157": "pdfs/ESCAPE ROOM 4-Puzzle 4.jpg",
-    "1275": "pdfs/ESCAPE ROOM 4-Puzzle 5.jpg"
+    "4952": "pdfs/ESCAPE ROOM 4-puzzle 3.jpg",
+    "3157": "pdfs/ESCAPE ROOM 4-puzzle 4.jpg",
+    "1275": "pdfs/ESCAPE ROOM 4-puzzle 5.jpg"
 }
 
 # Create tabs
