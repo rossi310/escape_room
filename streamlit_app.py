@@ -16,8 +16,8 @@ def display_pdf(file_path):
 # Define codes and corresponding PDF files for each escape room
 escape_room_1 = {
     "3": "https://escaperoom-haphnydaaex9964auhtoxj.streamlit.app/pdfs/ESCAPE ROOM 1-Puzzle 2.pdf",
-    "1136": "pdfs/ESCAPE ROOM 1-Puzzle 3.pdf",
-    "1869": "pdfs/ESCAPE ROOM 1-Puzzle 4.pdf",
+    "1136": "/pdfs/ESCAPE ROOM 1-Puzzle 3.pdf",
+    "1869": "../pdfs/ESCAPE ROOM 1-Puzzle 4.pdf",
     "4135": "pdfs/ESCAPE ROOM 1-Puzzle 5.pdf"
 }
 
