@@ -60,7 +60,7 @@ with tab1:
 with tab2:
     code2 = st.text_input("Enter code for Escape Room 2")
     if code2 in escape_room_2:
-         display_image(escape_room_1[code1])
+         display_image(escape_room_2[code2])
         #display_pdf(escape_room_2[code2])
     else:
         st.write("Enter a valid code to display the PDF.")
@@ -68,7 +68,7 @@ with tab2:
 with tab3:
     code3 = st.text_input("Enter code for Escape Room 3")
     if code3 in escape_room_3:
-         display_image(escape_room_1[code1])
+         display_image(escape_room_3[code3])
         #display_pdf(escape_room_3[code3])
     else:
         st.write("Enter a valid code to display the PDF.")
@@ -76,7 +76,7 @@ with tab3:
 with tab4:
     code4 = st.text_input("Enter code for Escape Room 4")
     if code4 in escape_room_4:
-         display_image(escape_room_1[code1])
+         display_image(escape_room_4[code4])
         #display_pdf(escape_room_4[code4])
     else:
         st.write("Enter a valid code to display the PDF.")
