@@ -25,20 +25,24 @@ escape_room_1 = {
 }
 
 escape_room_2 = {
-    "8.314": "pdfs/ESCAPE ROOM 1-Puzzle 2.jpg",
-    "1136": "pdfs/ESCAPE ROOM 1-Puzzle 3.jpg",
-    "1869": "pdfs/ESCAPE ROOM 1-Puzzle 4.jpg",
-    "4135": "pdfs/ESCAPE ROOM 1-Puzzle 5.jpg"
+    "8.314": "pdfs/ESCAPE ROOM 2-Puzzle 2.jpg",
+    "1136": "pdfs/ESCAPE ROOM 2-Puzzle 3.jpg",
+    "1869": "pdfs/ESCAPE ROOM 2-Puzzle 4.jpg",
+    "4135": "pdfs/ESCAPE ROOM 2-Puzzle 5.jpg"
 }
 
 escape_room_3 = {
-    "code5": "path/to/pdf5.pdf",
-    "code6": "path/to/pdf6.pdf"
+    "298": "pdfs/ESCAPE ROOM 3-Puzzle 2.jpg",
+    "1534": "pdfs/ESCAPE ROOM 3-Puzzle 3.jpg",
+    "18.314": "pdfs/ESCAPE ROOM 3-Puzzle 4.jpg",
+    "1275": "pdfs/ESCAPE ROOM 3-Puzzle 5.jpg"
 }
 
 escape_room_4 = {
-    "code7": "path/to/pdf7.pdf",
-    "code8": "path/to/pdf8.pdf"
+     "5": "pdfs/ESCAPE ROOM 4-Puzzle 2.jpg",
+    "4952": "pdfs/ESCAPE ROOM 4-Puzzle 3.jpg",
+    "3157": "pdfs/ESCAPE ROOM 4-Puzzle 4.jpg",
+    "1275": "pdfs/ESCAPE ROOM 4-Puzzle 5.jpg"
 }
 
 # Create tabs
