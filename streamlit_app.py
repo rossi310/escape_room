@@ -60,6 +60,7 @@ with tab1:
 with tab2:
     code2 = st.text_input("Enter code for Escape Room 2")
     if code2 in escape_room_2:
+        st.write("code correct")
         display_image(escape_room_2[code2])
         #display_pdf(escape_room_2[code2])
     else:
