@@ -3,11 +3,11 @@ import base64
 
 # Function to display PDF in Streamlit
 
-def display_pdf(pdf_url):
+def display_pdf2(pdf_url):
     pdf_display = f'<iframe src="{pdf_url}" width="700" height="900" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
-def display_pdf2(file_path):
+def display_pdf(file_path):
     with open(file_path, "rb") as f:
         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="900" type="application/pdf"></iframe>'
