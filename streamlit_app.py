@@ -20,7 +20,7 @@ def display_pdf2(file_path):
 escape_room_1 = {
     "3": "https://escaperoom-haphnydaaex9964auhtoxj.streamlit.app/pdfs/ESCAPE ROOM 1-Puzzle 2.JPG",
     "1136": "https://escaperoom-haphnydaaex9964auhtoxj.streamlit.app/pdfs/ESCAPE ROOM 1-Puzzle 3.jpg",
-    "1869": "../pdfs/ESCAPE ROOM 1-Puzzle 4.pdf",
+    "1869": "pdfs/ESCAPE ROOM 1-Puzzle 2.jpg",
     "4135": "pdfs/ESCAPE ROOM 1-Puzzle 5.pdf"
 }
 
