@@ -4,7 +4,7 @@ import base64
 # Function to display PDF in Streamlit
 
 def display_image(image_url):
-    st.image(image_url, width=700)
+    st.image(image_url)
 
 def display_pdf(pdf_url):
     pdf_display = f'<iframe src="{pdf_url}" width="700" height="900" type="application/pdf"></iframe>'
@@ -18,7 +18,7 @@ def display_pdf2(file_path):
 
 # Define codes and corresponding PDF files for each escape room
 escape_room_1 = {
-    "3": "https://escaperoom-haphnydaaex9964auhtoxj.streamlit.app/pdfs/ESCAPE ROOM 1-Puzzle 2.jpg",
+    "3": "https://escaperoom-haphnydaaex9964auhtoxj.streamlit.app/pdfs/ESCAPE ROOM 1-Puzzle 2.JPG",
     "1136": "https://escaperoom-haphnydaaex9964auhtoxj.streamlit.app/pdfs/ESCAPE ROOM 1-Puzzle 3.jpg",
     "1869": "../pdfs/ESCAPE ROOM 1-Puzzle 4.pdf",
     "4135": "pdfs/ESCAPE ROOM 1-Puzzle 5.pdf"
