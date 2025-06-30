@@ -18,10 +18,10 @@ def display_pdf2(file_path):
 
 # Define codes and corresponding PDF files for each escape room
 escape_room_1 = {
-    "3": "pdfs/ESCAPE ROOM 1-Puzzle 2.JPG",
-    "1136": "pdfs/ESCAPE ROOM 1-Puzzle 3.JPG",
-    "1869": "pdfs/ESCAPE ROOM 1-Puzzle 4.JPG",
-    "4135": "pdfs/ESCAPE ROOM 1-Puzzle 5.JPG"
+    "3": "pdfs/ESCAPE ROOM 1-Puzzle 2.jpg",
+    "1136": "/pdfs/ESCAPE ROOM 1-Puzzle 3.jpg",
+    "1869": "pdfs/ESCAPE ROOM 1-Puzzle 4.jpg",
+    "4135": "pdfs/ESCAPE ROOM 1-Puzzle 5.jpg"
 }
 
 escape_room_2 = {
