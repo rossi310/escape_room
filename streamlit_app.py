@@ -25,21 +25,21 @@ escape_room_1 = {
 }
 
 escape_room_2 = {
-    "8.314": "pdfs/ESCAPE ROOM 2-Puzzle 2.jpg",
+    "8.314":"pdfs/ESCAPE ROOM 2-Puzzle 2.jpg",
     "1136": "pdfs/ESCAPE ROOM 2-Puzzle 3.jpg",
     "1869": "pdfs/ESCAPE ROOM 2-Puzzle 4.jpg",
     "4135": "pdfs/ESCAPE ROOM 2-Puzzle 5.jpg"
 }
 
 escape_room_3 = {
-    "298": "pdfs/ESCAPE ROOM 3-Puzzle 2.jpg",
-    "1534": "pdfs/ESCAPE ROOM 3-Puzzle 3.jpg",
+    "298":    "pdfs/ESCAPE ROOM 3-Puzzle 2.jpg",
+    "1534":   "pdfs/ESCAPE ROOM 3-Puzzle 3.jpg",
     "18.314": "pdfs/ESCAPE ROOM 3-Puzzle 4.jpg",
-    "1275": "pdfs/ESCAPE ROOM 3-Puzzle 5.jpg"
+    "1275":   "pdfs/ESCAPE ROOM 3-Puzzle 5.jpg"
 }
 
 escape_room_4 = {
-     "5": "pdfs/ESCAPE ROOM 4-Puzzle 2.jpg",
+     "5":   "pdfs/ESCAPE ROOM 4-Puzzle 2.jpg",
     "4952": "pdfs/ESCAPE ROOM 4-Puzzle 3.jpg",
     "3157": "pdfs/ESCAPE ROOM 4-Puzzle 4.jpg",
     "1275": "pdfs/ESCAPE ROOM 4-Puzzle 5.jpg"
@@ -60,20 +60,23 @@ with tab1:
 with tab2:
     code2 = st.text_input("Enter code for Escape Room 2")
     if code2 in escape_room_2:
-        display_pdf(escape_room_2[code2])
+         display_image(escape_room_1[code1])
+        #display_pdf(escape_room_2[code2])
     else:
         st.write("Enter a valid code to display the PDF.")
 
 with tab3:
     code3 = st.text_input("Enter code for Escape Room 3")
     if code3 in escape_room_3:
-        display_pdf(escape_room_3[code3])
+         display_image(escape_room_1[code1])
+        #display_pdf(escape_room_3[code3])
     else:
         st.write("Enter a valid code to display the PDF.")
 
 with tab4:
     code4 = st.text_input("Enter code for Escape Room 4")
     if code4 in escape_room_4:
-        display_pdf(escape_room_4[code4])
+         display_image(escape_room_1[code1])
+        #display_pdf(escape_room_4[code4])
     else:
         st.write("Enter a valid code to display the PDF.")
