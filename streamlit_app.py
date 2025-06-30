@@ -3,6 +3,9 @@ import base64
 
 # Function to display PDF in Streamlit
 
+def display_image(image_url):
+    st.image(image_url, use_column_width=True)
+
 def display_pdf(pdf_url):
     pdf_display = f'<iframe src="{pdf_url}" width="700" height="900" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
@@ -45,7 +48,8 @@ with tab1:
     code1 = st.text_input("Enter code for Escape Room 1")
     if code1 in escape_room_1:
         st.write("code correct")
-        display_pdf(escape_room_1[code1])
+        display_image(escape_room_1[code1])
+        #display_pdf(escape_room_1[code1])
     else:
         st.write("Enter a valid code to display the PDF.")
 
