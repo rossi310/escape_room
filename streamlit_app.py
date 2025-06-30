@@ -5,7 +5,7 @@ import base64
 
 def display_pdf(pdf_url):
     pdf_display = f'<iframe src="{pdf_url}" width="700" height="900" type="application/pdf"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True
+    st.markdown(pdf_display, unsafe_allow_html=True)
 
 def display_pdf2(file_path):
     with open(file_path, "rb") as f:
