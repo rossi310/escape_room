@@ -4,7 +4,7 @@ import base64
 # Function to display PDF in Streamlit
 
 def display_image(image_url):
-    st.image(image_url, use_column_width=True)
+    st.image(image_url, width=700)
 
 def display_pdf(pdf_url):
     pdf_display = f'<iframe src="{pdf_url}" width="700" height="900" type="application/pdf"></iframe>'
