@@ -34,7 +34,7 @@ escape_room_2 = {
 escape_room_3 = {
     "298":    "pdfs/ESCAPE ROOM 3-puzzle 2.jpg",
     "1534":   "pdfs/ESCAPE ROOM 3-puzzle 3.jpg",
-    "18.314": "pdfs/ESCAPE ROOM 3-puzzle 4.jpg",
+    "8.314": "pdfs/ESCAPE ROOM 3-puzzle 4.jpg",
     "1275":   "pdfs/ESCAPE ROOM 3-puzzle 5.jpg"
 }
 
