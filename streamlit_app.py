@@ -60,7 +60,7 @@ escape_room_6 = {
 }
 
 # Create tabs
-tab1, tab2, tab3, tab4 = st.tabs(["Escape Room 1", "Escape Room 2", "Escape Room 3", "Escape Room 4"])
+tab1, tab2, tab3, tab4 , tab5, tab6 = st.tabs(["Escape Room 1", "Escape Room 2", "Escape Room 3", "Escape Room 4","Escape Room 5","Escape Room 6"])
 
 with tab1:
     code1 = st.text_input("Enter code for Escape Room 1")
