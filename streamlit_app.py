@@ -45,6 +45,20 @@ escape_room_4 = {
     "1275": "pdfs/ESCAPE ROOM 4-puzzle 5.jpg"
 }
 
+escape_room_5 = {
+     "3157":        "pdfs/ESCAPE ROOM 5-puzzle 2.jpg",
+    "phosphorus":   "pdfs/ESCAPE ROOM 5-puzzle 3.jpg",
+    "6.0221":       "pdfs/ESCAPE ROOM 5-puzzle 4.jpg",
+    "1225":         "pdfs/ESCAPE ROOM 5-puzzle 5.jpg"
+}
+
+escape_room_6 = {
+     "3":     "pdfs/ESCAPE ROOM 6-puzzle 2.jpg",
+    "1534":   "pdfs/ESCAPE ROOM 6-puzzle 3.jpg",
+    "6.0221": "pdfs/ESCAPE ROOM 6-puzzle 4.jpg",
+    "1077":   "pdfs/ESCAPE ROOM 6-puzzle 5.jpg"
+}
+
 # Create tabs
 tab1, tab2, tab3, tab4 = st.tabs(["Escape Room 1", "Escape Room 2", "Escape Room 3", "Escape Room 4"])
 
@@ -79,5 +93,19 @@ with tab4:
     if code4 in escape_room_4:
         display_image(escape_room_4[code4])
         #display_pdf(escape_room_4[code4])
+    else:
+        st.write("Enter a valid code to display the PDF.")
+with tab5:
+    code5 = st.text_input("Enter code for Escape Room 4")
+    if code5 in escape_room_5:
+        display_image(escape_room_5[code5])
+      
+    else:
+        st.write("Enter a valid code to display the PDF.")
+with tab6:
+    code6 = st.text_input("Enter code for Escape Room 4")
+    if code6 in escape_room_6:
+        display_image(escape_room_6[code6])
+      
     else:
         st.write("Enter a valid code to display the PDF.")
