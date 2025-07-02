@@ -96,14 +96,14 @@ with tab4:
     else:
         st.write("Enter a valid code to display the PDF.")
 with tab5:
-    code5 = st.text_input("Enter code for Escape Room 4")
+    code5 = st.text_input("Enter code for Escape Room 5")
     if code5 in escape_room_5:
         display_image(escape_room_5[code5])
       
     else:
         st.write("Enter a valid code to display the PDF.")
 with tab6:
-    code6 = st.text_input("Enter code for Escape Room 4")
+    code6 = st.text_input("Enter code for Escape Room 6")
     if code6 in escape_room_6:
         display_image(escape_room_6[code6])
       
